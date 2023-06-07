@@ -1,0 +1,92 @@
+'This is a sample sound map file
+'Comments start with the apostrophe
+'a command named "none" means no sound for that event
+'"play" plays the sound
+'"stop eventname" stops the sound started by the given event
+'"loop" loops the sound
+OpenConsole = play sounds/soif_Conopn9s.wav
+CloseConsole = play sounds/soif_Concls9sb.wav
+'
+'KeyIgnoredUI = play sounds/bonk1.wav
+'
+'
+'This message gets sent whenever a drop fails...it may happen too often,
+'in which case we'll have to add more specific events.
+'LeftMouseDragCancel = none
+'
+'Deleting vehicle from a slot
+'ClearCurrentSlot = play sounds/8.wav 
+'ResetCurrentSlot = play sounds/soif_skybtn1.wav
+'
+'SOIF_MicronLP1c.wav 20
+HoloScrollStartUI = loop sounds/SOIF_MicronLP1c.wav 42
+HoloScrollCompletedUI = stop HoloScrollStartUI
+HoloScrollCompletedUI = play sounds/SOIF_Micron2b.wav 35
+'HoloScrollUI = play sounds/SOIF_Micron1.wav 55
+LoginButtonClickedUI = play sounds/soif_slide1b22.wav
+LoginNewUserCreatedUI = play sounds/soif_paper2a.wav
+'LoginUserSelectedUI = play sounds/
+
+WiringStartTileDragUI = play sounds/soif_tm2c.wav 85
+'WiringFailedTileDragUI = play sounds/
+'WiringCompletedTileMoveUI = play sounds/
+WiringCompletedNewWireUI = play sounds/soif_wiresld1c.wav 30
+'WiringDropLogicalCompUI = play sounds/
+WiringDeletedCompsUI = play sounds/soif_clear3.wav 40
+
+WiringOneCompSelectedUI = play1  sounds/soif_tm2d.wav 75
+WiringOneWireSelectedUI = play1 sounds/soif_wiresld1c.wav 50
+WiringStartRubberBandDragUI = loop sounds/SOIF_tm2LP1a.wav 35
+'WiringRubberBandDragUI = play sounds/soif_ok122.wav 75
+WiringFinishRubberBandDragUI = stop WiringStartRubberBandDragUI
+WiringFinishRubberBandDragUI = play sounds/SOIF_tm2b.wav 55
+
+ScenarioSelectedUI = play1 sounds/soif_blue5c.wav 55
+CommandConsoleExecuteUI = play sounds/soif_term1f.wav 35
+HBVehicleSelectedUI = play1 sounds/soif_blue5a.wav 50
+SlotVehicleSelectedUI = play1 sounds/soif_blue6b.wav 70
+VehicleCreatedUI = play sounds/soif_blue6d.wav 
+VehicleLoadedUI = play1 sounds/soif_blue6d.wav 
+VehicleRenamedUI = play sounds/soif_renamed6d.wav 35
+MajorButtonClickedUI = play1 sounds/SOIF_term4e.wav 70
+
+SliderVolumeAdjustUI = play sounds/SOIF_Parinc2c.wav
+VMBrokenUI = play sounds/soif_shutdwn1c22.wav
+
+HoloboxPhysicalComponentSelectedUI = play1 sounds/SOIF_Micron2a.wav 70 
+VehiclePhysicalComponentSelectedUI = play1 sounds/soif_holoselect2_22.wav
+'PhysicalComponentSelectedUI = play sounds/1.wav 
+'WiringComponentSelectedUI = play sounds/2.wav 
+GoButtonClickedUI = play sounds/soif_ok222.wav 75
+LogoutButtonClickedUI = play sounds/soif_Acc1cn.wav 55
+
+'StartWiringZoom = 
+'StopWiringZoom = 
+WiringZoomToFit = play1 sounds/soif_Acc1d.wav 30
+WiringZoomIn = play1 sounds/soif_Acc1e.wav 30
+WiringZoomOut = play1 sounds/soif_Acc1f.wav 30
+
+VCMinorChangeUI = play sounds/SOIF_Parinc2c.wav
+'VCMajorChangeUI = play sounds/SOIF_tm2b.wav 55
+
+VehiclePreviewRotationStartUI = loop sounds/SOIF_MicronLP1d.wav 50
+VehiclePreviewRotationEndUI = stop VehiclePreviewRotationStartUI
+VehiclePreviewRotationEndUI = play1 sounds/SOIF_Micron2d.wav
+
+'ComponentSelected = play1 sounds/SOIF_Micron2a.wav 45
+'DragComponentTile = play1 sounds/SOIF_Micron2b.wav
+
+ScenarioWon = play sounds/scenwon1a.wav
+ScenarioLost = play sounds/scenlost1a.wav
+ScenarioDraw = play sounds/scendraw1a.wav
+'ScenarioReturnToConsoleQuit = play sounds/1.wav 
+ScenarioReturnToConsoleEnd = play sounds/soif_win4_mn_22.wav
+ScenarioReplayScenario = play sounds/soif_win4_mn_22.wav
+ScenarioRestartScenario = play sounds/soif_draw4_mn_22.wav
+
+'ExitGameUI = play sounds/soif_Concls8c.wav
+ExitGame = play sounds/soif_shutdwn1c22.wav
+
+ConsoleStartLoadingUI  = loop sounds/SOIF_Loadloop3.wav
+ConsoleFinishLoadingUI = stop ConsoleStartLoadingUI
+

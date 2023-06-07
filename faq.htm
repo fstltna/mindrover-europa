@@ -1,0 +1,128 @@
+<P><B><FONT FACE="Arial, Helvetica, sans-serif" SIZE="+3" CLASS="subhead">MindRover: The Europa Project FAQ</FONT></B>
+			
+				<FONT CLASS="small"><BR>Last Updated on: 2001-05-23 21:57:00</FONT>
+				<P>
+				This is where you will find useful information about <a href="http://www.lokigames.com/products/mindrover/">MindRover: The Europa Project</a>. The following are answers to some frequently asked questions about this game.  Please read these before e-mailing Loki Technical Support - Chances are <b>your</b> question is answered here too!
+	<P><H2>1. <A HREF="#Introduction">Introduction</A></H2><LI><A HREF="#11">1.1 How to use this FAQ</A><LI><A HREF="#12">1.2 Authors</A></UL><H2>2. <A HREF="#Requirements">Requirements</A></H2><LI><A HREF="#21">2.1 What are the system requirements for the game?</A><LI><A HREF="#22">2.2 Does the game use 3D acceleration?</A><LI><A HREF="#23">2.3 Can the game be played on all distributions of Linux?</A></UL><H2>3. <A HREF="#Interoperability">Interoperability</A></H2><LI><A HREF="#31">3.1 Can I buy the Windows version and download a patch to play MindRover under Linux?</A><LI><A HREF="#32">3.2 Can I use the additions from Cognitoy's web-site (www.cognitoy.com) with the Linux version of MindRover?</A></UL><H2>4. <A HREF="#Demo">Demo</A></H2><LI><A HREF="#41">4.1 Where can I get the MindRover demo version?</A></UL><H2>5. <A HREF="#Installation">Installation</A></H2><LI><A HREF="#51">5.1 How do I install the game?</A><LI><A HREF="#52">5.2 Do I have to be logged in as root to install the game?</A><LI><A HREF="#53">5.3 What command-line options are available once the game is installed?</A></UL><H2>6. <A HREF="#Updates">Updates</A></H2><LI><A HREF="#61">6.1 Where can I download the update patches?</A></UL><H2>7. <A HREF="#Display">Display</A></H2><LI><A HREF="#71">7.1 How do I tell MindRover which libGL to use?</A><LI><A HREF="#72">7.2 Why is the game running very, very slowly, and the mouse is very choppy?</A><LI><A HREF="#73">7.3 Can I control the camera once the scenario starts?</A><LI><A HREF="#74">7.4 I'm using an nVidia card and anti-aliasing, and the text is corrupted!</A><LI><A HREF="#75">7.5 I've used the in-game video settings on my Voodoo (Banshee/3/5) and now the screen is blank!</A><LI><A HREF="#76">7.6 How can I change the resolution?</A></UL><H2>8. <A HREF="#Input">Input</A></H2><LI><A HREF="#81">8.1 How can I invert the mouse?</A></UL><H2>9. <A HREF="#Sound">Sound</A></H2><LI><A HREF="#91">9.1 I'm not getting any sound.  What can I do?</A><LI><A HREF="#92">9.2 I ran MindRover with -c to disable the CD-ROM, but I want the music to play again.</A></UL><H2>10. <A HREF="#Gameplay">Gameplay</A></H2><LI><A HREF="#101">10.1 Where can I get more game tips?</A></UL><H2>11. <A HREF="#Contact">Contact</A></H2><LI><A HREF="#111">11.1 How do I report a bug?</A><LI><A HREF="#112">11.2 How can I receive technical support?</A></UL><BR><BR><HR><BR><BR><H2>1. <A NAME="Introduction">Introduction</A></H2><UL><LI><A NAME="11">1.1 How to use this FAQ</A><BR><BR><UL>This FAQ allows you to navigate through the answers by category, or individually, or to view the entire FAQ at once.  The full view is also suitable for printing.
+<p>
+This FAQ is modelled on the Linux HOWTO documents for consistency and ease of navigation.</UL><BR><LI><A NAME="12">1.2 Authors</A><BR><BR><UL>The maintainers of the FAQ can be reached by e-mailing <a href="mailto:faqs@lokigames.com">faqs@lokigames.com</a>.  Please send all correspondance directly related to the FAQlist tool to that address.</UL><BR></UL><H2>2. <A NAME="Requirements">Requirements</A></H2><UL><LI><A NAME="21">2.1 What are the system requirements for the game?</A><BR><BR><UL><table border="0">
+  <tr>
+    <td colspan="3">
+      <center><b>Minimum system requirements:</b></center>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      Linux kernel version 2.2.X
+      Pentium 200 or faster with 3D accelerator card
+      32 MB RAM required (64 MB recommended)
+      4-speed CD-ROM drive
+      glibc 2.1
+    </td>
+    <td>   </td>
+    <td valign="top">
+      Video card capable of 640x480 resolution
+      XFree86 version 3.3.5 or newer at 16bpp
+      OSS compatible sound card
+      Hard disk drive with 75 MB of available space
+    </td>
+  </tr>
+</table>
+</UL><BR><LI><A NAME="22">2.2 Does the game use 3D acceleration?</A><BR><BR><UL>Yes.  In fact, the game does not include a software renderer, so a 3D accelerator is required.</UL><BR><LI><A NAME="23">2.3 Can the game be played on all distributions of Linux?</A><BR><BR><UL>We spent a significant amount of development time ensuring that MindRover: The Europa Project works properly with all major glibc 2.1-based distributions. 
+<p>
+Because the game is designed for glibc 2.1, libc5 and glibc 2.0 users may need to upgrade. </UL><BR></UL><H2>3. <A NAME="Interoperability">Interoperability</A></H2><UL><LI><A NAME="31">3.1 Can I buy the Windows version and download a patch to play MindRover under Linux?</A><BR><BR><UL>No.  We are not offering a patch to convert the Windows version to the Linux version.</UL><BR><LI><A NAME="32">3.2 Can I use the additions from Cognitoy's web-site (www.cognitoy.com) with the Linux version of MindRover?</A><BR><BR><UL>You should be able to download the additional components, scenarios, vehicles, etc. and use them with the Linux version.
+<p>
+Due to case-sensitivity issues, you will need to link the <code>Text/</code> directory to <code>text/</code> in order to use the additional downloadable components.
+<p>
+This can be accomplished with the following sequence of commands:
+<pre>
+    cd /usr/local/games/MindRover/
+    ln -s Text text
+</pre>
+(You will need to change the path if you installed into a different directory, and you will need to do this as a user with write-permission to the installation directory.)</UL><BR></UL><H2>4. <A NAME="Demo">Demo</A></H2><UL><LI><A NAME="41">4.1 Where can I get the MindRover demo version?</A><BR><BR><UL>The MindRover demo is available through our <a href="http://www.lokigames.com/products/demos.php3">Demo Launcher</a> (<a href="http://www.lokigames.com/products/demos.php3"><i>http://www.lokigames.com/products/demos.php3</i></a>).</UL><BR></UL><H2>5. <A NAME="Installation">Installation</A></H2><UL><LI><A NAME="51">5.1 How do I install the game?</A><BR><BR><UL><ol>
+<li>Mount the CD-ROM using the "<code>mount</code>" command. If you are unsure how this works, please check the documentation for your Linux distribution. Generally, the format for mounting a CD-ROM under Linux is similar to: 
+<pre>
+    mount -t iso9660 -r /dev/cdrom /mnt/cdrom
+</pre>
+<li>Under X11, enter the command "<code>sh [Mounted CD-ROM Path]/setup.sh</code>". Be sure to replace the [Mounted CD-ROM Path] portion of this command with the correct path for the mounted CD-ROM. In the example above, the command would be: 
+<pre>
+    sh /mnt/cdrom/setup.sh
+</pre>
+<li>Under "Global Options":
+<ul>
+<li>Enter the directory into which the game should be installed in the Install path: box. In the box labeled "Binary directory", enter a directory in your <code>$PATH</code> where a symbolic link for the binary should be set up. Make sure you have write permissions in both of these directories.</li>
+</ul>
+<li>Under "Install Options":
+<ul>
+<li>You must install "Base Install" (the basic game files).</li>
+<li>Below the Install Options, the installer will display how much space is left on your partition, and how much the game will use per the options selected (63 MB for the base install).</li>
+<li>Check in the box for KDE/Gnome menu items if you would like them installed. </li>
+</ul>
+<li>You may view the game README at this point if you wish, by clicking on "View Readme". Otherwise, click on "Begin Install" to begin the copying of files.</li>
+<li>When the game has finished installing, you may choose either to launch it directly (click on "Play!") or to simply exit and run the game from the console. 
+<li>To run the game generally, just type "<code>mindrover</code>" from the console (you shouldn't have to enter the complete path).  If you chose to install desktop icons, and you are running one of the desktops, you will be able to launch the game from the installed icons.</li>
+</ol></UL><BR><LI><A NAME="52">5.2 Do I have to be logged in as root to install the game?</A><BR><BR><UL>No, but you do have to have write privileges to <code>/usr/local/games</code> (or wherever you choose to install the game). </UL><BR><LI><A NAME="53">5.3 What command-line options are available once the game is installed?</A><BR><BR><UL>The following arguments may be given to MindRover:
+<pre>
+        [-h | --help]           Display this help message
+        [-v | --version]        Display the game version
+        [-f | --fullscreen]     Run the game fullscreen
+        [-w | --windowed]       Run the game in a window
+        [-s | --nosound]        Do not access the soundcard
+        [-c | --nocdrom]        Do not access the CD-ROM
+        [-u | --update]         Run the Loki auto-update tool
+        [-q | --qagent]         Run the Loki QAgent support tool
+        [-g | --gllibrary]      Select 3D rendering library
+</pre>
+So, to launch the game in a window, without sound, you would issue the command:
+<pre>
+    mindrover -w -s
+</pre>
+</UL><BR></UL><H2>6. <A NAME="Updates">Updates</A></H2><UL><LI><A NAME="61">6.1 Where can I download the update patches?</A><BR><BR><UL>Mindrover: The Europa Project does not currently have any patches.  Should any updates be released, they will be announced and made available through the Loki Update Tool (<a href="http://updates.lokigames.com/"><i>http://updates.lokigames.com/</i></a>).</UL><BR></UL><H2>7. <A NAME="Display">Display</A></H2><UL><LI><A NAME="71">7.1 How do I tell MindRover which libGL to use?</A><BR><BR><UL>Launch MindRover with the following command-line:
+<pre>
+    mindrover -g /path/to/your/preferred/libGL.so
+</pre>
+(specifying the correct path in place of the placeholder, of course)</UL><BR><LI><A NAME="72">7.2 Why is the game running very, very slowly, and the mouse is very choppy?</A><BR><BR><UL>You are probably running the game using software GL rendering.  You must have your 3D card configured for hardware accelerated rendering.  Updated information on supported 3D cards and drivers is available at: <a href="http://faqs.lokigames.com/faq.php3?view=index&product=GL0"><i>http://faqs.lokigames.com/faq.php3?view=index&product=GL0</i></a>
+
+</UL><BR><LI><A NAME="73">7.3 Can I control the camera once the scenario starts?</A><BR><BR><UL>Yes.  The camera controls are:
+<pre>
+        1       - Look at vehicle 1
+        2       - Look at vehicle 2
+        3       - Look at vehicle 3
+        4       - Look at vehicle 4
+        Shift-1 - Follow vehicle 1
+        Shift-2 - Follow vehicle 2
+        Shift-3 - Follow vehicle 3
+        Shift-4 - Follow vehicle 4
+        9       - Look at the scoreboard
+        0       - Default camera for the scenario
+        Shift-0 - Free-floating camera, use mouse to control it
+</pre>
+<p>
+Note that the camera bindings are specified by the scenario, so some scenarios will use different types of cameras.  In general, though, they follow these rules.</UL><BR><LI><A NAME="74">7.4 I'm using an nVidia card and anti-aliasing, and the text is corrupted!</A><BR><BR><UL>Please disable FSAA (or set it to the lowest anti-aliasing mode).  With the 1.0-1251 drivers, for instance, setting <code>__GL_FSAA_MODE</code> higher than 2 causes display corruption on the text.  0, 1, and 2 are all confirmed to display correctly.</UL><BR><LI><A NAME="75">7.5 I've used the in-game video settings on my Voodoo (Banshee/3/5) and now the screen is blank!</A><BR><BR><UL>This is a manifestation of a DRI bug fixed in January 2001, but not included in the DRI updates in XFree86 4.0.x (4.1.0 does have it).  The long-term solution is to update DRI and XFree86 to the current versions of each.
+<p>
+However, as a work-around, you can modify <code>~/.loki/mindrover/userprofile.txt</code> and remove the <code>gamma=xxx</code> line.  This will bypass the call that blanks the palette.</UL><BR><LI><A NAME="76">7.6 How can I change the resolution?</A><BR><BR><UL>Edit <code>~/.loki/mindrover/userprofile.txt</code> and add a line:
+<pre>
+    resolution=XXXxYYY
+</pre>
+Note that the supported resolutions are: 
+<code>640x480</code> (default),
+<code>800x600</code>, and
+<code>1024x768</code>.  If you are not running at 16bpp, you will also need to add the X server's depth, e.g.:
+<pre>
+    resolution=1024x768x32
+</pre></UL><BR></UL><H2>8. <A NAME="Input">Input</A></H2><UL><LI><A NAME="81">8.1 How can I invert the mouse?</A><BR><BR><UL>Add the line:
+<pre>
+    invertmouse=1
+</pre>
+to your <code>~/.loki/mindrover/userprofile.txt</code>  This will cause the mouse input to be inverted when flying around the simulation.  (It does not affect the mouse outside of the actual rover simulation, e.g. in the menus.)</UL><BR></UL><H2>9. <A NAME="Sound">Sound</A></H2><UL><LI><A NAME="91">9.1 I'm not getting any sound.  What can I do?</A><BR><BR><UL>First, check all your connections between your speakers and your computer.  Make sure your speakers are turned on and receiving power.  Make sure the volume is not turned down all the way.  You can change sound and music volume in the '<code>Options</code>' window.  If none of the above suggestions works, try producing sound in another program.  If that does not work, make sure you have the sound driver enabled in your kernel.  Finally, go to <a href="http://www.opensound.com/"><i>http://www.opensound.com/</i></a> to see whether a commercial driver is available for your sound card.
+</UL><BR><LI><A NAME="92">9.2 I ran MindRover with -c to disable the CD-ROM, but I want the music to play again.</A><BR><BR><UL>Once you have started MindRover with '<code>mindrover -c</code>', you will need to edit your <code>~/.loki/mindrover/userprofile.txt</code> to re-enable sound.  Change the line:
+<pre>
+    nocdrom=1
+</pre>
+to
+<pre>
+    nocdrom=0
+</pre></UL><BR></UL><H2>10. <A NAME="Gameplay">Gameplay</A></H2><UL><LI><A NAME="101">10.1 Where can I get more game tips?</A><BR><BR><UL>You may wish to visit the <a href="http://www.mindrover.com/">MindRover website</a> (<a href="http://www.mindrover.com/"><i>http://www.mindrover.com/</i></a>) for new scenarios and more information on playing the game.</UL><BR></UL><H2>11. <A NAME="Contact">Contact</A></H2><UL><LI><A NAME="111">11.1 How do I report a bug?</A><BR><BR><UL>Please visit our publicly accessible <a href="http://fenris.lokigames.com/">bug database</a> (<a href="http://fenris.lokigames.com/"><i>http://fenris.lokigames.com/</i></a>) and post a bug report. Be sure to first check the list of known bugs and fixes/patches. </UL><BR><LI><A NAME="112">11.2 How can I receive technical support?</A><BR><BR><UL>We support our products by <a href="mailto:support@lokigames.com">e-mail</a> (preferred) and phone. Phone support is available by calling (714) 508-2140 between the hours of 9:00 a.m. and 5:00 p.m. (Pacific Standard Time) Monday through Friday, except holidays. </UL><BR></UL><!-- END MAIN BODY -->
+		
+<P><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#CCCCCC" SIZE="-1" CLASS="small">Support inquries should be addressed to <A HREF="mailto:support@lokigames.com">support@lokigames.com</A>.
+<BR><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#000000" SIZE="-1" CLASS="small">FAQ's maintained by <A HREF="mailto:faqs@lokigames.com">faqs@lokigames.com</A>.

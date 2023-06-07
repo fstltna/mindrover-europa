@@ -1,0 +1,143 @@
+
+                        MindRover: The Europa Project
+                               Version 1.07
+                             October 10, 2000
+
+
+
+
+       TABLE OF CONTENTS
+
+       1 System Requirements
+       2 Installation 
+       3 Playing The Game
+       4 Troubleshooting
+       5 Contacting Loki Software, Inc.
+
+
+-----------------------
+(1) SYSTEM REQUIREMENTS
+-----------------------
+
+  Linux kernel version 2.2.X
+  Pentium 200 or faster with 3D accelerator card
+  32 MB RAM required (64 MB recommended)
+  4-speed CD-ROM drive
+  glibc 2.1
+  Video card capable of 640x480 resolution
+  XFree86 version 3.3.5 or newer at 16bpp
+  OSS compatible sound card
+  Hard disk drive with 75 MB of available space
+
+
+------------------
+(2) INSTALLATION
+------------------
+
+Mount the MindRover CD and change the current directory to where
+it is mounted.  Type 'sh setup.sh' to run the install script.
+
+e.g.  Log in as root:
+	mount /mnt/cdrom
+	cd /mnt/cdrom
+	sh setup.sh
+
+If you haven't already installed the Loki Update Tool or Loki Uninstall
+Tool, the installer will prompt you to install these before installing
+the main product.
+
+
+--------------------
+(3) PLAYING THE GAME
+--------------------
+
+    Run 'mindrover' to start the game.
+
+    The first time you run the game it will create a .loki/mindrover
+    directory in your home directory.  Saved games, temporary files,
+    and preferences will be stored here.
+
+    The following arguments may be given to MindRover:
+
+        [-h | --help]           Display this help message
+        [-v | --version]        Display the game version
+        [-f | --fullscreen]     Run the game fullscreen
+        [-w | --windowed]       Run the game in a window
+        [-s | --nosound]        Do not access the soundcard
+        [-c | --nocdrom]        Do not access the CD-ROM
+        [-u | --update]         Run the Loki auto-update tool
+        [-q | --qagent]         Run the Loki QAgent support tool
+        [-g | --gllibrary]      Select 3D rendering library
+
+    Camera controls:
+        1       - Look at vehicle 1
+        2       - Look at vehicle 2
+        3       - Look at vehicle 3
+        4       - Look at vehicle 4
+        Shift-1 - Follow vehicle 1
+        Shift-2 - Follow vehicle 2
+        Shift-3 - Follow vehicle 3
+        Shift-4 - Follow vehicle 4
+        9       - Look at the scoreboard
+        0       - Free-floating camera, use mouse to control it
+
+    String widgets have standard UNIX keybindings.
+
+        Ctrl-A - Move to beginning of line
+        Ctrl-E - Move to end of line
+        Ctrl-B - Move backwards
+        Ctrl-F - Move forwards
+        Ctrl-U - Erase line
+        Ctrl-D - Delete character
+        Ctrl-C - Copy to X clipboard
+        Ctrl-V - Paste from X clipboard
+
+    Please check out the MindRover website for new scenarios and more
+    information on playing the game: http://www.mindrover.com/
+
+    For information on ICE, the language used to build the vehicles,
+    visit the TWiki website: http://www.cognitoy.com/twiki/bin/view/Main/
+
+
+-------------------    
+(4) TROUBLESHOOTING    
+-------------------    
+The following are some of the more common problems you might have, and
+recommended solutions:
+
+A) There is no game sound.
+
+   First, check all your connections between your speakers and your 
+   computer.  Make sure your speakers are turned on and receiving power.  
+   Make sure the volume is not turned down all the way.  You can change
+   sound and music volume in the 'Options' window.
+   If none of the above suggestions works, try producing sound in another 
+   program.  If that does not work, make sure you have the sound driver
+   enabled in your kernel.  Finally, go to http://www.opensound.com/
+   to see whether a commercial driver is available for your sound card.
+
+B) The game runs VERY slowly.
+
+   You are probably running the game using software rendering.  You must
+   have your 3D card configured for hardware accelerated rendering.
+   Updated information on supported 3D cards and drivers is available at:
+   http://www.lokigames.com/support/gldrivers/
+
+
+----------------------------------
+(5) CONTACTING LOKI SOFTWARE, INC.
+----------------------------------
+
+For information about this and other products, visit our website at:
+http://www.lokigames.com/
+
+Technical support is available from Loki Software, Inc. at:
+
+    FAQ:      http://faqs.lokigames.com/
+    Website:  http://fenris.lokigames.com/
+    Email:    support@lokigames.com
+    Phone:    1-714-508-2140
+              Telephone support is available between 9 A.M. and 5 P.M. PST
+
+You can also communicate with other MindRover enthusiasts at:
+Usenet:   news://news.lokigames.com/loki.games.mindrover
